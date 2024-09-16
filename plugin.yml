@@ -1,0 +1,7 @@
+main: dev.lanoxkodo.VersaLeash
+name: VersaLeash
+author: Lanox Kodo
+website: https://lanoxkododev.fr.to
+version: 1.0
+api-version: 1.20.5
+description: "Permits leashing of LivingEntities that normally would not be leashable, with some features that can be toggled."

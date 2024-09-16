@@ -1,0 +1,12 @@
+#########################
+### VERSALEASH CONFIG ###
+#########################
+
+#Flag for whether the plugin should use permission checks.
+#If true, set the permissions versaleash.leash.<entityName> or versaleash.leash.* in your permission plugin where needed.
+#Default: true
+usePermissions: true
+
+#Flag for whether entities on leads should be able to take damage.
+#Default: false
+leashedInvulnerable: false
