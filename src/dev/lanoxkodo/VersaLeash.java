@@ -7,6 +7,7 @@ public class VersaLeash extends JavaPlugin {
 	
 	private FileHandler fileHandler;
 	protected boolean usePermissions;
+	protected boolean leadAntiBreak;
 	protected boolean leashedBeInvulnerable;
 	
 	@Override
@@ -14,6 +15,7 @@ public class VersaLeash extends JavaPlugin {
 	{
 		fileHandler = new FileHandler(this);
 		usePermissions = fileHandler.isEnabled("usePermissions");
+		leadAntiBreak = fileHandler.isEnabled("leadAntiBreak");
 		leashedBeInvulnerable = fileHandler.isEnabled("leashedInvulnerable");
 		
 		getServer().getPluginManager().registerEvents(new LeashLogic(this), this);

@@ -1,11 +1,13 @@
-#########################
-### VERSALEASH CONFIG ###
-#########################
+# VersaLeash Config
 
 #Flag for whether the plugin should use permission checks.
 #If true, set the permissions versaleash.leash.<entityName> or versaleash.leash.* in your permission plugin where needed.
 #Default: true
 usePermissions: true
+
+#Flag for whether anti-break feature for leads should be used. Engages when lead becomes 7.5 blocks long.
+#Default: true
+leadAntiBreak: true
 
 #Flag for whether entities on leads should be able to take damage.
 #Default: false

@@ -61,7 +61,7 @@ public class LeashLogic implements Listener {
             public void run()
             {
             	entity.setLeashHolder(player);
-    			leashMonitor(entity);
+            	if (versaleash.leadAntiBreak) leashMonitor(entity);
             }
         }, 1L);
 	}
